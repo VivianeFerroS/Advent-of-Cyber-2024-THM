@@ -24,9 +24,20 @@ Em seguida enumerei os diretórios do webserver com o Gobuster, o que me mostrou
 
 ![image](https://github.com/user-attachments/assets/947a076f-b968-4f0e-a30b-a28302a3e680)
 
-AcessE o diretório como http://IP_DA_MAQUINA/download, assim ele já faz download do arquivo zip denominado download.zip.
+Acesse o diretório como http://IP_DA_MAQUINA/download, assim ele já faz download do arquivo zip denominado download.zip.
+
+![image](https://github.com/user-attachments/assets/994d2165-81f4-4ee3-825c-79bc170fdae2)
+
 
 Descompacte o arquivo zip, e lá conterá dois arquivos .mp3, sendo eles song.mp3 e somg.mp3
+
+Utilizando o comando file song.mp3 eu identifiquei o arquivo como sendo um áudio em formato MPEG ADTS se trata realmente de um arquivo de musica, não tem nada de suspeito nele.
+![image](https://github.com/user-attachments/assets/1d3396c9-3635-49b9-bcf2-8a1d47a8f7f8)
+
+Mas temos um arquivo disfarçado sendo o segundo arquivo chamado de somg.mp3, a primeira vista também pode parecer suspeito por ter um erro de ortografia. mas iremos analisar a fundo esse arquivo.
+Utilizei o comando file somg.mp3 identifiquei como um atalho LNK ao inves de um arquivo de audio, que apontava para o powershell.exe. iremos nos apronfundar muito mais.
+![image](https://github.com/user-attachments/assets/4b9fb32d-e983-4834-9a9b-7282d912d88b)
+
 
 
 ![image](https://github.com/user-attachments/assets/45ce33f5-bab7-4c73-b64f-6bede4101ee0)
