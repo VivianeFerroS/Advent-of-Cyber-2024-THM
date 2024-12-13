@@ -1,6 +1,6 @@
 # Advent-of-Cyber-2024-THM
 ![image](https://github.com/user-attachments/assets/04709f1d-900f-4a3e-9952-d24ccf24caf3)
-
+<img src="https://tryhackme-badges.s3.amazonaws.com/VivianeFerro.png" alt="Your Image Badge" />
 ## Tarefa 7 : Segurança operacional
 
 ### Dia 1: Talvez a música do SOC-mas, ele pensou, não venha de uma loja?
